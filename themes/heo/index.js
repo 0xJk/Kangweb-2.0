@@ -149,6 +149,7 @@ const LayoutPostList = props => {
       <div id="nav-bar-wrapper" className="h-16">
         <NavBar {...props} />
       </div>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9490487841529174" crossorigin="anonymous"></script>
     </header>
   )
 
