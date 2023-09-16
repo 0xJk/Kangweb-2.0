@@ -1,3 +1,7 @@
+'use client'
+import posthog from 'posthog-js'
+import { PostHogProvider } from 'posthog-js/react'
+
 import '@/styles/animate.css' // @see https://animate.style/
 import '@/styles/globals.css'
 import '@/styles/nprogress.css'
@@ -15,10 +19,6 @@ import dynamic from 'next/dynamic'
 import { isBrowser, loadExternalResource } from '@/lib/utils'
 import BLOG from '@/blog.config'
 
-'use client'
-import posthog from 'posthog-js'
-import { PostHogProvider } from 'posthog-js/react'
-
 if (typeof window !== 'undefined') {
   posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
     api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST
@@ -27,8 +27,7 @@ if (typeof window !== 'undefined') {
 
 export function PHProvider({ children }) {
   return <PostHogProvider client={posthog}>{children}</PostHogProvider>
-}
-
+} // hog
 
 // 各种扩展插件 动画等
 const ExternalPlugins = dynamic(() => import('@/components/ExternalPlugins'))
