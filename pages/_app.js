@@ -14,19 +14,6 @@ import 'aos/dist/aos.css' // You can also use <link> for styles
 import dynamic from 'next/dynamic'
 import { isBrowser, loadExternalResource } from '@/lib/utils'
 import BLOG from '@/blog.config'
-'use client'
-import posthog from 'posthog-js' // posthog
-import { PostHogProvider } from 'posthog-js/react'
-
-if (typeof window !== 'undefined') {
-  posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
-    api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST
-  })
-}
-
-export function PHProvider({ children }) {
-  return <PostHogProvider client={posthog}>{children}</PostHogProvider>
-}
 
 // 各种扩展插件 动画等
 const ExternalPlugins = dynamic(() => import('@/components/ExternalPlugins'))
