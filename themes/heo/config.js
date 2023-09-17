@@ -37,7 +37,7 @@ const CONFIG = {
     '🤖️ 数码科技爱好者',
     '🧱 团队小组气氛组'
   ],
-  INFO_CARD_URL: 'https://twitter.com/0xJam_', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://nextme.one/chefkang', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
@@ -63,7 +63,7 @@ const CONFIG = {
       color_1: '#ffffff',
       title_2: 'Python',
       img_2: '/images/heo/20235c0731cd4c0c95fc136a8db961fdf963071502.webp',
-      color_2: '#ffffff'
+      color_2: '#353535'
     },
     {
       title_1: 'Swift',
@@ -93,9 +93,9 @@ const CONFIG = {
       title_1: 'Git',
       img_1: '/images/heo/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.webp',
       color_1: '#df5b40',
-      title_2: 'Rhino',
+      title_2: 'Openai',
       img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
-      color_2: '#1f1f1f'
+      color_2: '#10a37f'
     }
   ],
 
