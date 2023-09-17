@@ -50,9 +50,9 @@ const CONFIG = {
       color_2: '#ffffff'
     },
     {
-      title_1: 'Docker',
+      title_1: 'Midjourney',
       img_1: '/images/heo/20231108a540b2862d26f8850172e4ea58ed075102.webp',
-      color_1: '#57b6e6',
+      color_1: '#353535',
       title_2: 'Photoshop',
       img_2: '/images/heo/2023e4058a91608ea41751c4f102b131f267075902.webp',
       color_2: '#4082c3'
@@ -69,9 +69,9 @@ const CONFIG = {
       title_1: 'Swift',
       img_1: '/images/heo/202328bbee0b314297917b327df4a704db5c072402.webp',
       color_1: '#eb6840',
-      title_2: 'Principle',
+      title_2: 'Stability',
       img_2: '/images/heo/2023f76570d2770c8e84801f7e107cd911b5073202.webp',
-      color_2: '#8f55ba'
+      color_2: '#300463'
     },
     {
       title_1: 'illustrator',
