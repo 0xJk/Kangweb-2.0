@@ -51,7 +51,7 @@
     "react-share": "^4.4.1",
     "react-tweet-embed": "~2.0.0",
     "typed.js": "^2.0.12",
-    "posthog-js": "^1.20.2",
+    "posthog-js": "^1.20.2"
   },
   "devDependencies": {
     "@waline/client": "^2.5.1",
