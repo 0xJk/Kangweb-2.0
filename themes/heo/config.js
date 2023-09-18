@@ -20,9 +20,9 @@ const CONFIG = {
   HERO_TITLE_LINK: 'https://www.chefkang.xyz',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'AI精选', url: '/tag/AI精选' },
-  HERO_CATEGORY_2: { title: 'WEB3入门', url: '/tag/WEB3入门' },
-  HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HERO_CATEGORY_1: { title: '图片提示词助手', url: 'https://mj-tools.chefkang.xyz/' },
+  HERO_CATEGORY_2: { title: 'GPT提示词助手', url: 'http://gpt-tools.chefkang.xyz/' },
+  HERO_CATEGORY_3: { title: 'WEB3入门', url: '/tag/WEB3入门' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HERO_RECOMMEND_POST_TAG: '推荐',
