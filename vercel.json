@@ -1,5 +1,9 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "headers": []
+  "headers": [],
+  "rewrites": [
+    { "source": "/gpt-tools/:asset*", "destination": "https://gpt-tools-ck.vercel.app/:asset*" },
+    { "source": "/mj-tools/:asset*", "destination": "https://gpt-tools-ck.vercel.app/:asset*" }
+  ]
 }
