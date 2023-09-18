@@ -100,9 +100,9 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '海王岛社区',
-  SOCIAL_CARD_TITLE_2: '加入我们社群在线学习和分享',
-  SOCIAL_CARD_TITLE_3: '点击加入社群',
+  SOCIAL_CARD_TITLE_1: '加入社区',
+  SOCIAL_CARD_TITLE_2: '我们社群会在线学习和分享',
+  SOCIAL_CARD_TITLE_3: '点击加入社区',
   SOCIAL_CARD_URL: 'https://nextme.one/Kingofsea',
 
   // *****  以下配置无效，只是预留开发 ****
