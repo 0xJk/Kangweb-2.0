@@ -170,8 +170,6 @@ function GroupMenu() {
         href={CONFIG.HERO_CATEGORY_1?.url}
         className="group relative overflow-hidden bg-gradient-to-r from-blue-500 to-blue-400 flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in"
       >   <a target="_blank" rel="noopener noreferrer">
-      Open in a new tab
-    
         <div className="font-bold lg:text-lg  pl-5 relative -mt-2">
           {CONFIG.HERO_CATEGORY_1?.title}
           <span className="absolute -bottom-0.5 left-5 w-5 h-0.5 bg-white rounded-full"></span>
@@ -185,8 +183,6 @@ function GroupMenu() {
         href={CONFIG.HERO_CATEGORY_2?.url}
         className="group relative overflow-hidden bg-gradient-to-r from-red-500 to-yellow-500 flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in"
       >   <a target="_blank" rel="noopener noreferrer">
-      Open in a new tab
-    
         <div className="font-bold lg:text-lg pl-5 relative -mt-2">
           {CONFIG.HERO_CATEGORY_2?.title}
           <span className="absolute -bottom-0.5 left-5 w-5 h-0.5 bg-white rounded-full"></span>
