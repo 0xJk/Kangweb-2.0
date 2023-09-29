@@ -31,7 +31,7 @@ export default function GoogleAdsense() {
     // 延迟3秒加载
     setTimeout(() => {
       initGoogleAdsense()
-    }, 3000)
+    }, 4000)
   }, [router])
 
   return null

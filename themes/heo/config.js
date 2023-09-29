@@ -6,8 +6,8 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
     { title: '欢迎来到我的空间', url: 'https://www.chefkang.xyz' },
-    { title: 'Midjourney 提示词分享', url: 'https://www.chefkang.xyz' },
-    { title: 'ChatGPT 提示词分享', url: 'https://www.chefkang.xyz' },
+    { title: 'Midjourney 提示词分享', url: 'https://mj-tools.chefkang.xyz/' },
+    { title: 'ChatGPT 提示词分享', url: 'https://gpt-tools.chefkang.xyz/' },
     { title: '网站刚做好欢迎各种建议和意见', url: 'https://www.chefkang.xyz' }
   ],
 
